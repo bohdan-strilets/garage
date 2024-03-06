@@ -5,6 +5,7 @@ import {
   RightWingAnimation,
   LeftWingAnimation,
 } from "src/styles/animations/WingsAnimation";
+import { flicker } from "src/styles/animations/FlickerAnimation";
 
 export const StyledLink = styled(Link)`
   display: inline-flex;
@@ -37,6 +38,10 @@ export const BrandName = styled.p`
   text-transform: lowercase;
 
   color: var(--accent-color);
+`;
+
+export const AccentLetter = styled.span`
+  animation: ${flicker} 2s linear infinite;
 `;
 
 export const Tagline = styled.p`

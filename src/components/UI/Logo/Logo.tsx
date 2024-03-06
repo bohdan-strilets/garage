@@ -5,6 +5,7 @@ import {
   StyledLink,
   IconWrapper,
   BrandName,
+  AccentLetter,
   Tagline,
   LeftWing,
   RightWing,
@@ -15,7 +16,9 @@ const Logo: React.FC<LogoProps> = ({ type }) => {
     <StyledLink to={PathsRoute.Home}>
       <IconWrapper>
         <PiGarage size={140} />
-        <BrandName>Garage</BrandName>
+        <BrandName>
+          Gara<AccentLetter>g</AccentLetter>e
+        </BrandName>
         <LeftWing size={120} className="wing" />
         <RightWing size={120} className="wing" />
       </IconWrapper>
