@@ -5,7 +5,10 @@ import Logo from "../UI/Logo";
 import NavigationList from "./NavigationList";
 import Controllers from "./Controllers";
 import UserBar from "./UserBar";
-import { menuItemsPart1, menuItemsPart2 } from "./NavigationList/menuItems";
+import {
+  MenuItemsPart1,
+  MenuItemsPart2,
+} from "src/helpers/DefaultData/MenuItems";
 import { Wrapper, MenuBtn, Container } from "./Header.styled";
 
 const Header: React.FC = () => {
@@ -32,8 +35,8 @@ const Header: React.FC = () => {
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.3 }}
           >
-            <NavigationList title="Car" options={menuItemsPart1} />
-            <NavigationList title="User" options={menuItemsPart2} />
+            <NavigationList title="Car" options={MenuItemsPart1} />
+            <NavigationList title="User" options={MenuItemsPart2} />
             <UserBar
               avatarUrl="https://cdn.pixabay.com/photo/2024/02/21/14/14/mountains-8587802_1280.jpg"
               userName="Yellow Mango"

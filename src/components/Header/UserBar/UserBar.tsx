@@ -1,6 +1,6 @@
 import Avatar from "src/components/UI/Avatar";
 import Title from "src/components/UI/Title";
-import { UserBarProps } from "./props";
+import { UserBarProps } from "src/types/props/UserBarProps";
 import { Wrapper, Item, Text, CarName } from "./UserBar.styled";
 
 const UserBar: React.FC<UserBarProps> = ({

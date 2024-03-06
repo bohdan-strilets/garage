@@ -1,6 +1,6 @@
 import { PiGarage } from "react-icons/pi";
 import { PathsRoute } from "src/types/enums/PathsRoute";
-import { LogoProps } from "./props";
+import { LogoProps } from "src/types/props/LogoProps";
 import {
   StyledLink,
   IconWrapper,

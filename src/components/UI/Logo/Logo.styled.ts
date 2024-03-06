@@ -1,7 +1,10 @@
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
 import { GiLibertyWing } from "react-icons/gi";
-import { RightWingAnimation, LeftWingAnimation } from "./animation";
+import {
+  RightWingAnimation,
+  LeftWingAnimation,
+} from "src/styles/animations/WingsAnimation";
 
 export const StyledLink = styled(Link)`
   display: inline-flex;

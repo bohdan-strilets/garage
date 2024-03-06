@@ -9,75 +9,76 @@ import { AiOutlineAreaChart } from "react-icons/ai";
 import { ImBook } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { GiCarWheel } from "react-icons/gi";
+import { PathsRoute } from "src/types/enums/PathsRoute";
 
-export const menuItemsPart1 = [
+export const MenuItemsPart1 = [
   {
     id: 1,
     label: "Home",
-    path: "/",
+    path: PathsRoute.Home,
     icon: <ImHome3 />,
   },
   {
     id: 2,
     label: "Cars",
-    path: "/",
+    path: PathsRoute.Cars,
     icon: <IoCarSport />,
   },
   {
     id: 3,
     label: "Fuel",
-    path: "/",
+    path: PathsRoute.Fuel,
     icon: <BsFuelPumpFill />,
   },
   {
     id: 4,
     label: "Service",
-    path: "/",
+    path: PathsRoute.Service,
     icon: <MdMiscellaneousServices />,
   },
   {
     id: 5,
     label: "Insurance",
-    path: "/",
+    path: PathsRoute.Insurance,
     icon: <BiSolidShield />,
   },
   {
     id: 6,
     label: "Technical inspection",
-    path: "/",
+    path: PathsRoute.TechnicalInspection,
     icon: <FaClipboardCheck />,
   },
 ];
 
-export const menuItemsPart2 = [
+export const MenuItemsPart2 = [
   {
     id: 1,
     label: "Profile",
-    path: "/",
+    path: PathsRoute.Profile,
     icon: <FaUser />,
   },
   {
     id: 2,
     label: "Statistics",
-    path: "/",
+    path: PathsRoute.Statistics,
     icon: <AiOutlineAreaChart />,
   },
   {
     id: 3,
     label: "Blog",
-    path: "/",
+    path: PathsRoute.Blog,
     icon: <ImBook />,
   },
   {
     id: 4,
     label: "Contacts",
-    path: "/",
+    path: PathsRoute.Contacts,
     icon: <MdEmail />,
   },
   {
     id: 5,
-    label: "About as",
-    path: "/",
+    label: "About us",
+    path: PathsRoute.AboutUs,
     icon: <GiCarWheel />,
   },
 ];

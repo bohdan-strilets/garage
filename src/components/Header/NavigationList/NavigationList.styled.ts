@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
-import { pendulum } from "./animation";
+import { pendulum } from "src/styles/animations/PendulumAnimation";
 
 export const Item = styled.li`
   width: 330px;

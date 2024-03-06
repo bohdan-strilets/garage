@@ -1,4 +1,4 @@
-import { AvatarProps } from "./props";
+import { AvatarProps } from "src/types/props/AvatarProps";
 import { BackgroundImg } from "./Avatar.styled";
 
 const Avatar: React.FC<AvatarProps> = ({

@@ -1,4 +1,4 @@
-import { LayoutProps } from "./props";
+import { LayoutProps } from "src/types/props/LayoutProps";
 import { Wrapper } from "./Layout.styled";
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {

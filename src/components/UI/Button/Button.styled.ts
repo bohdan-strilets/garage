@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { StyledBtnProps, IconWrapperProps } from "./props";
+import { StyledBtnProps, IconWrapperProps } from "src/types/props/ButtonProps";
 
 export const StyleedBtn = styled.button<StyledBtnProps>`
   display: flex;

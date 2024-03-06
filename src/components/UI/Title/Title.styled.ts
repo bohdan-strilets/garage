@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { HeaderProps } from "./props";
+import { HeaderProps } from "src/types/props/TitleProps";
 
 export const Header = styled.p<HeaderProps>`
   margin: ${({ margin }) => (margin ? margin : "")};

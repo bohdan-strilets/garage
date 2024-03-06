@@ -1,4 +1,4 @@
-import { ButtonProps } from "./props";
+import { ButtonProps } from "src/types/props/ButtonProps";
 import { StyleedBtn, Label, IconWrapper } from "./Button.styled";
 
 const Button: React.FC<ButtonProps> = ({

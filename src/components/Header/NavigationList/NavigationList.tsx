@@ -1,5 +1,5 @@
 import Title from "src/components/UI/Title";
-import { NavigationListProps } from "./props";
+import { NavigationListProps } from "src/types/props/NavigationListProps";
 import { Item, StyledLink, IconWrapper, Label } from "./NavigationList.styled";
 
 const NavigationList: React.FC<NavigationListProps> = ({ title, options }) => {

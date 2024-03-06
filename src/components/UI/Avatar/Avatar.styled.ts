@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { BackgroundImgProps } from "./props";
+import { BackgroundImgProps } from "src/types/props/AvatarProps";
 
 export const BackgroundImg = styled.div<BackgroundImgProps>`
   width: ${({ width }) => (width ? width : "")};

@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { motion } from "framer-motion";
-import { Pulse } from "./animation";
+import { Pulse } from "src/styles/animations/PulseAnimation";
 
 export const Wrapper = styled.header`
   display: flex;
