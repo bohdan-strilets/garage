@@ -1,7 +1,7 @@
-import Logo from "src/components/UI/Logo";
+import Header from "src/components/Header";
 
 const HomePage: React.FC = () => {
-  return <Logo type="full" />;
+  return <Header />;
 };
 
 export default HomePage;
