@@ -11,6 +11,7 @@ export const Header = styled.p<HeaderProps>`
 
   color: var(--white-color);
   text-shadow: 2px 2px 3px var(--black-transparent-color);
+  border-radius: 3px;
   background: ${({ background }) => {
     if (background === "accent") {
       return "var(--red-gradient)";
