@@ -1,5 +1,11 @@
+import CarInformation from "src/components/CarInformation";
+
 const HomePage: React.FC = () => {
-  return null;
+  return (
+    <>
+      <CarInformation />
+    </>
+  );
 };
 
 export default HomePage;
